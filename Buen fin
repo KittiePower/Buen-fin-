@@ -1,0 +1,43 @@
+/******************************************************************************
+Buen fin 
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 26042022
+*******************************************************************************/
+
+#include <iostream>
+/*
+Ejemplo para uso de condicional if-else
+*/
+using namespace std;
+
+
+int main()
+{
+
+
+    int cantidad;
+    
+
+    cout<< " Escribe la cantidad de pares de zapatos comprados " ;
+    cin>>cantidad;
+    if(cantidad==5)
+ 
+        cout<<"hay descuento de 10%"<<endl;
+        
+        if(cantidad==10)
+            
+            cout<<"hay descuento de 20%"<<endl;
+            
+            if(cantidad>10){
+            
+            cout<<"hay descuento de 40%"<<endl;
+}
+    else
+    
+    {
+        cout<<"no hay descuento"<<endl;
+    
+}
+    return 0;
+}
+
